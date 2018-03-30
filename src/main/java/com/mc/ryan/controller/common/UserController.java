@@ -1,4 +1,4 @@
-package com.mc.ryan.controller.user;
+package com.mc.ryan.controller.common;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mc.ryan.service.user.IUserService;
-import com.mc.ryan.vo.user.UserVO;
+import com.mc.ryan.service.common.IUserService;
+import com.mc.ryan.vo.common.UserVO;
 
 @RestController
 public class UserController {

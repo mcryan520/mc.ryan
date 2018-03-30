@@ -1,8 +1,8 @@
-package com.mc.ryan.service.user;
+package com.mc.ryan.service.common;
 
 import java.util.List;
 
-import com.mc.ryan.vo.user.UserVO;
+import com.mc.ryan.vo.common.UserVO;
 
 public interface IUserService {
 	

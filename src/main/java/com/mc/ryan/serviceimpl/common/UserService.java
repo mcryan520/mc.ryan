@@ -1,4 +1,4 @@
-package com.mc.ryan.serviceimpl.user;
+package com.mc.ryan.serviceimpl.common;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.mc.ryan.dao.user.IUserDao;
-import com.mc.ryan.service.user.IUserService;
-import com.mc.ryan.vo.user.UserVO;
+import com.mc.ryan.dao.common.IUserDao;
+import com.mc.ryan.service.common.IUserService;
+import com.mc.ryan.vo.common.UserVO;
 
 @Service
 public class UserService implements IUserService {

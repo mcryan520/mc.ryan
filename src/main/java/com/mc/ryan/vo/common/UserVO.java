@@ -1,4 +1,5 @@
-package com.mc.ryan.vo.user;
+package com.mc.ryan.vo.common;
+
 
 public class UserVO {
 	
